@@ -36,12 +36,12 @@ To create the hello.txt file:
     (1) in git bash, I typed: 'touch hello.txt' and the text file was generated.
     (2) to write on the file I typed: 'echo "message to be written" > hello.txt'.
 
-## Commiting changes, staging the fill.
+## task 5: Commiting changes, staging the fill.
 To stage the file, I did the following in git bash:
     (1) git add . to add the hello.txt file and the images.
     (2) git commit -m "commiting a hello.txt file to github".
 
-## Pushing the work to github:
+## task 6: Pushing the work to github:
 Due to some challenges, I could not push my file directly to github as the local repository was behind the remote repository. This I had to first fetch and create a pull request in order to update the local repo.
     (1) git fetch origin
     (2) git pull origin main --allow-unrelated-histories
@@ -49,6 +49,6 @@ Due to some challenges, I could not push my file directly to github as the local
 By using the above steps, I was able to connect and ush to my remote repository.
 ![image of pushing to repo](<pushing_to_github.png>)
 
-## verification on github:
+## task 7: verification on github:
 I could see my uploaded work when i navigated to my github repository.
 Both images, hello.txt file and README.md file were present.
